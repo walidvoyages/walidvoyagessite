@@ -1,1 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800&display=swap'); html[lang="ar"] body{font-family:Tajawal,Arial,sans-serif}html[dir="rtl"] .nav-inner,html[dir="rtl"] .topflex{direction:rtl}html[dir="rtl"] .hero-main,html[dir="rtl"] .section-bar,html[dir="rtl"] .search-title{text-align:right}html[dir="rtl"] .search-tabs,html[dir="rtl"] .search-card{direction:rtl}html[dir="rtl"] .hero-side{display:none}html[dir="rtl"] .agency-card{text-align:right}.arabic-seo{line-height:2;font-size:1.1rem}.arabic-seo h3{margin-top:1.2rem}
+
+/* V6 Arabic refinements */
+html[dir='rtl'] body{font-family:'Tajawal','DM Sans',sans-serif}
+html[dir='rtl'] .hero h1,html[dir='rtl'] .section-bar h2,html[dir='rtl'] .cards-hub h2,html[dir='rtl'] .seo-editorial h2,html[dir='rtl'] .arabic-seo h2{letter-spacing:0}
+html[dir='rtl'] .nav-inner{direction:rtl} html[dir='rtl'] .navlinks a:after{right:0;left:auto}
+html[dir='rtl'] .hero-main{grid-template-columns:1fr 300px} html[dir='rtl'] .hero-side{justify-self:start}
+html[dir='rtl'] .agency-card,html[dir='rtl'] .offer-copy,html[dir='rtl'] .omra-intro,html[dir='rtl'] .seo-editorial,html[dir='rtl'] .arabic-seo{text-align:right}
+html[dir='rtl'] .small-note,html[dir='rtl'] .pane-copy,html[dir='rtl'] .direct-copy p{text-align:right}
+@media (max-width:1080px){html[dir='rtl'] .hero-main{grid-template-columns:1fr}}
