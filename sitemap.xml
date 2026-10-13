@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
- <url><loc>https://www.walidvoyages.com/</loc></url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+ <url><loc>https://www.walidvoyages.com/</loc><xhtml:link rel="alternate" hreflang="ar-TN" href="https://www.walidvoyages.com/ar.html"/></url>
+ <url><loc>https://www.walidvoyages.com/ar.html</loc><xhtml:link rel="alternate" hreflang="fr-TN" href="https://www.walidvoyages.com/"/></url>
  <url><loc>https://www.walidvoyages.com/omra-tunisie.html</loc></url>
  <url><loc>https://www.walidvoyages.com/vols-tunisie.html</loc></url>
  <url><loc>https://www.walidvoyages.com/hotels-tunisie.html</loc></url>
@@ -11,4 +12,8 @@
  <url><loc>https://www.walidvoyages.com/carte-kasserine.html</loc></url>
  <url><loc>https://www.walidvoyages.com/carte-sfax.html</loc></url>
  <url><loc>https://www.walidvoyages.com/carte-tunis.html</loc></url>
+ <url><loc>https://www.walidvoyages.com/ar-omra-tunisie.html</loc></url>
+ <url><loc>https://www.walidvoyages.com/ar-vols-tunisie.html</loc></url>
+ <url><loc>https://www.walidvoyages.com/ar-hotels-tunisie.html</loc></url>
+ <url><loc>https://www.walidvoyages.com/ar-voyages-tunisie.html</loc></url>
 </urlset>

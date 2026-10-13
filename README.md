@@ -31,3 +31,23 @@ Les cartes conservent le lien Maps original lorsqu’il est disponible, avec un 
 - Aucun API Secret Cloudinary requis ni embarqué dans le site. Un service signataire est indispensable pour upload Signed direct.
 - Ouvrir tous les liens depuis localhost:8000 ou après GitHub Pages, pas file://.
 - Les critères de vols/hôtels sont enregistrés localement pour référence mais **ne peuvent pas être préremplis chez le fournisseur** sans deep link ou API documenté.
+
+
+## V4: FR / العربية + PC images
+- `index.html` is French, `ar.html` is the Arabic homepage (indexable with hreflang).
+- Navigation language switch and official electronic cards hub are included.
+- Admin image input previews PC files. Upload works ONLY after a secure HTTPS backend is configured to verify Firebase ID tokens and admin role, then sign Cloudinary uploads server-side. The existing Signed preset `walidvoyages` cannot securely upload from static GitHub Pages alone.
+- Until then, upload images in Cloudinary Dashboard and paste the `https://res.cloudinary.com/xvncs8ud/image/upload/...` URL into the corresponding Admin field.
+- Admin's Firebase SEO entries are not automatically baked into static page meta tags; edit HTML/redeploy to update crawlable SEO metadata.
+- Booking form currently directs to official engine; deep-link search criteria require supported integration from reservation provider.
+- Test via `python -m http.server 8000`, not `file://`.
+
+
+## V5 — liens officiels et SEO bilingue
+- Vols : https://www.walid-voyages.com/vols
+- Hôtels : https://www.walid-voyages.com/liste
+- Pages françaises et pages arabes SEO statiques, avec liens croisés et sitemap.
+- Le formulaire de recherche ouvre le moteur officiel, mais **ne transfère pas automatiquement les critères** : cela nécessite un deep link/API pris en charge par le prestataire de réservation.
+- Firebase et Cloudinary : mêmes paramètres que V4. Les images sont stockées sur Cloudinary; le site conserve les liens dans Firebase. Un upload directement depuis l'ordinateur via preset Signed nécessite un backend sécurisé.
+- Les modifications SEO enregistrées dans Firebase ne changent pas automatiquement les meta tags HTML; republier des pages statiques pour appliquer ces changements à Google.
+- Évitez le travail via file:// : utilisez un serveur HTTP local ou GitHub Pages.
