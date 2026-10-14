@@ -1,0 +1,52 @@
+
+/* Walid Voyages V12 — unified full-bleed cinematic cover */
+html,body{max-width:100%;overflow-x:clip}
+.sitehead{position:relative!important;z-index:100!important;background:#06173a!important;border-bottom:1px solid rgba(255,255,255,.15)!important}
+.sitehead .headinner{height:82px!important;max-width:1440px!important;width:calc(100% - 44px)!important;gap:22px!important}
+.sitehead .brand{width:175px!important;height:74px!important;flex-shrink:0!important;background:transparent!important;border-radius:0!important;box-shadow:none!important}
+.sitehead .brand img{width:172px!important;height:auto!important;max-height:70px!important;object-fit:contain!important}
+.sitehead .nav{display:flex;flex:1;justify-content:center;gap:clamp(9px,1.1vw,19px)!important}
+.sitehead .nav a{font-size:clamp(10px,.75vw,12px)!important;color:#fff!important;text-transform:none!important;letter-spacing:0!important}
+.sitehead .headright{display:flex;gap:9px!important;align-items:center}
+.sitehead .header-phone{background:#109ee4;color:white;border-radius:100px;padding:12px 16px;font-size:12px;white-space:nowrap}
+.hero-photo-v12{width:100%!important;min-height:780px!important;padding:0!important;overflow:hidden!important;position:relative!important;background:#101d56!important;isolation:isolate}
+.hero-photo-v12:before{display:none!important}
+.hero-photo-v12 .poster-layout{width:100%!important;max-width:none!important;min-height:780px!important;display:block!important;padding:0!important;margin:0!important;position:relative!important}
+.hero-photo-v12 .poster-art{position:absolute!important;inset:0!important;width:100%!important;height:100%!important;max-width:none!important;min-width:0!important;animation:none!important;pointer-events:none;z-index:0!important}
+.hero-photo-v12 .poster-frame{position:absolute!important;inset:0!important;width:100%!important;height:100%!important;border:0!important;border-radius:0!important;box-shadow:none!important;background:none!important}
+.hero-photo-v12 .poster-frame img{width:100%!important;height:100%!important;max-height:none!important;object-fit:cover!important;object-position:center center!important;filter:saturate(1.02)}
+.hero-photo-v12:after{content:'';position:absolute;inset:0;z-index:1;pointer-events:none;background:linear-gradient(90deg,transparent 20%,rgba(8,17,54,.06) 40%,rgba(5,20,56,.40) 60%,rgba(7,25,67,.27) 100%)}
+.hero-photo-v12 .poster-description{position:relative!important;z-index:2!important;box-sizing:border-box;width:51%!important;max-width:760px!important;min-height:780px!important;margin-left:auto!important;margin-right:0!important;padding:105px 5.7vw 80px 15px!important;display:flex!important;flex-direction:column!important;align-items:flex-start!important;justify-content:center!important;text-align:left!important;direction:ltr!important;background:none!important}
+.hero-photo-v12 .poster-kicker{color:#e4c9ff!important;font-size:12px!important;letter-spacing:.17em!important;margin-bottom:16px!important;font-weight:800!important;text-shadow:0 2px 9px #13224b}
+.hero-photo-v12 h2{font-family:'Barlow Condensed','Arial Narrow',Impact,sans-serif!important;font-weight:900!important;font-size:clamp(55px,5.4vw,95px)!important;line-height:.87!important;letter-spacing:-.012em!important;margin:8px 0 22px!important;color:white!important;text-shadow:0 4px 20px #0b1d58a8;max-width:800px!important}
+.hero-photo-v12 h2 em{display:block!important;font-style:normal!important;color:#c5a5ff!important}
+.hero-photo-v12 #promoPosterText{color:#fff!important;font-size:clamp(15px,1.1vw,19px)!important;line-height:1.72!important;max-width:590px!important;margin:0 0 14px!important;text-shadow:0 2px 12px #091547}
+.hero-photo-v12 .poster-rule{width:68px!important;height:3px!important;background:#ce9dff!important;margin:14px 0 22px!important}
+.hero-photo-v12 .showcase-actions{display:flex!important;flex-wrap:wrap!important;gap:12px!important;margin:0!important}
+.hero-photo-v12 .showcase-actions a{display:inline-flex!important;gap:9px!important;align-items:center!important;min-height:56px!important;padding:16px 22px!important;border-radius:22px!important;font-weight:900!important;font-size:13px!important;white-space:normal!important;transition:transform .25s ease,box-shadow .25s ease}
+.hero-photo-v12 .showcase-primary{background:linear-gradient(115deg,#ae50fa,#737afb)!important;color:white!important;box-shadow:0 12px 30px #5021b95c!important}
+.hero-photo-v12 .showcase-secondary{background:#081c4b9e!important;color:white!important;border:1px solid #d8b4ff!important}
+.hero-photo-v12 .showcase-actions a:hover{transform:translateY(-4px);box-shadow:0 18px 35px #18065266!important}
+.hero-photo-v12 .showcase-features{width:100%!important;max-width:615px!important;display:grid!important;grid-template-columns:repeat(4,minmax(0,1fr))!important;gap:12px!important;margin:32px 0 0!important}
+.hero-photo-v12 .showcase-features span{font-size:11px!important;color:#fff!important;line-height:1.45!important;text-shadow:0 2px 10px #071439}
+.inspiration-premium{padding:78px 24px;background:linear-gradient(140deg,#071b3e,#1b1654 60%,#3c2074);color:white}
+.inspiration-inner{width:min(1260px,100%);margin:auto;border-radius:28px;overflow:hidden;border:1px solid #b5a6e650;box-shadow:0 30px 75px #01071866;background:#121b4f}
+.inspiration-inner>img{display:block;width:100%;height:auto;object-fit:contain}
+.inspiration-bottom{display:flex;justify-content:space-between;align-items:center;gap:30px;padding:26px 38px;background:#101945}
+.inspiration-bottom h2{font-family:'DM Sans','Tajawal',sans-serif;font-weight:800;font-size:clamp(22px,2.6vw,36px);margin:7px 0}
+.inspiration-label{font-size:11px;letter-spacing:.17em;color:#c7aefa;font-weight:900}
+.inspiration-bottom p{font-size:14px;line-height:1.7;color:#e5e2ff;max-width:650px;margin:0}
+.inspiration-link{display:inline-flex;border-radius:100px;padding:16px 22px;background:#ddd0ff;color:#141344;font-weight:900;white-space:nowrap}
+html[dir=rtl] .hero-photo-v12 .poster-description{margin-right:0!important;margin-left:auto!important;text-align:right!important;direction:rtl!important;align-items:flex-start!important}
+html[dir=rtl] .hero-photo-v12 h2{font-family:'Tajawal',sans-serif!important;line-height:1.18!important;font-size:clamp(42px,4.4vw,76px)!important;letter-spacing:0!important;text-transform:none!important}
+html[dir=rtl] .inspiration-bottom{direction:rtl;text-align:right}
+@media(max-width:1120px){.sitehead .header-phone{display:none!important}.sitehead .nav{gap:10px!important}.hero-photo-v12 .poster-description{width:54%!important;padding-right:30px!important}.hero-photo-v12 h2{font-size:clamp(46px,5.4vw,78px)!important}}
+@media(max-width:900px){.sitehead .nav{display:none!important}.sitehead .nav.open{display:flex!important;position:absolute;left:0;right:0;top:80px;background:#071738;flex-direction:column;align-items:stretch;padding:20px;z-index:150}.sitehead .hamb{display:block!important}.hero-photo-v12{min-height:760px!important}.hero-photo-v12 .poster-layout{min-height:760px!important}.hero-photo-v12 .poster-frame img{object-position:37% center!important}.hero-photo-v12:after{background:linear-gradient(0deg,rgba(6,14,48,.92),rgba(5,13,42,.12) 95%)}.hero-photo-v12 .poster-description{width:100%!important;max-width:none!important;min-height:760px!important;justify-content:flex-end!important;padding:260px 28px 44px!important;margin:0!important}.hero-photo-v12 h2{font-size:clamp(46px,8.5vw,75px)!important}.hero-photo-v12 .showcase-features{grid-template-columns:repeat(2,minmax(0,1fr))!important;max-width:530px!important}.inspiration-bottom{display:block}.inspiration-link{margin-top:18px}}
+@media(max-width:540px){.sitehead .headinner{height:70px!important;width:calc(100% - 25px)!important}.sitehead .brand{width:138px!important;height:64px!important}.sitehead .brand img{width:135px!important}.hero-photo-v12,.hero-photo-v12 .poster-layout{min-height:770px!important}.hero-photo-v12 .poster-frame img{object-position:33% center!important}.hero-photo-v12 .poster-description{min-height:770px!important;padding:305px 18px 36px!important}.hero-photo-v12 h2{font-size:clamp(39px,11vw,57px)!important}.hero-photo-v12 .showcase-actions{display:grid!important;grid-template-columns:1fr!important;width:100%!important}.hero-photo-v12 .showcase-actions a{width:100%!important;justify-content:center}.hero-photo-v12 #promoPosterText{font-size:14px!important}.inspiration-premium{padding:48px 14px}.inspiration-bottom{padding:22px}.inspiration-link{white-space:normal}}
+@media(prefers-reduced-motion:reduce){.hero-photo-v12 *, .inspiration-premium *{animation:none!important;transition:none!important}}
+
+/* Couverture choisie par Walid Voyages — photo originale complète. */
+.hero-photo-v12 .poster-frame img{object-position:center center!important;filter:none!important}
+.hero-photo-v12:after{background:linear-gradient(90deg,transparent 23%,rgba(5,12,44,.08) 42%,rgba(7,17,53,.38) 62%,rgba(6,20,58,.23) 100%)!important}
+@media(max-width:900px){.hero-photo-v12 .poster-frame img{object-position:39% center!important}}
+@media(max-width:540px){.hero-photo-v12 .poster-frame img{object-position:33% center!important}}
