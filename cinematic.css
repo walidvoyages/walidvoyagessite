@@ -34,3 +34,10 @@ html[dir=rtl] .poster-description{text-align:right}html[dir=rtl] .poster-descrip
 @keyframes posterFloat{0%,100%{transform:translateY(0)}50%{transform:translateY(-13px)}}
 @media(max-width:900px){.poster-feature{padding:65px 0}.poster-layout{grid-template-columns:1fr;gap:40px}.poster-art{max-width:460px}.poster-description{text-align:center!important;max-width:640px;justify-self:center}.poster-rule{margin-inline:auto}.poster-description p{margin-inline:auto}.poster-description h2{font-size:clamp(38px,9vw,68px)}}
 @media(prefers-reduced-motion:reduce){.poster-art{animation:none!important}.poster-link{transition:none!important}}
+
+/* V9 — marketing copy and clean action styling */
+.poster-description p{max-width:540px;line-height:1.85;opacity:.94;font-size:clamp(16px,1.15vw,20px)}
+.poster-link{display:inline-flex;align-items:center;justify-content:center;gap:16px;background:linear-gradient(110deg,#ffffff 0%,#e8d8ff 100%)!important;color:#182647!important;border:0!important;box-shadow:0 17px 46px rgba(144,100,255,.28);transition:transform .3s ease,box-shadow .3s ease}
+.poster-link:hover{transform:translateY(-4px);box-shadow:0 25px 54px rgba(155,109,255,.34)}
+.poster-frame img{display:block;width:100%;height:auto;object-fit:contain}
+@media (max-width:760px){.poster-description p{font-size:16px}.poster-link{width:100%;min-height:56px}}
